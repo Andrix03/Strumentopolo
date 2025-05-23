@@ -9,7 +9,7 @@ namespace Prototipo.Strumenti.Taccuino
     public static class FileManager
     {
         private static readonly string StorageFolder =
-            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "BloccoNoteApp");
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Taccuino");
 
         static FileManager()
         {

@@ -1,9 +1,14 @@
 ﻿using static Prototipo.MenuPrincipale;
+using System.Media;
 public class Program
 {
     public static void Main()
     {
         Console.CursorVisible = false;
+
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+        player.Stream = Prototipo.Properties.Resources.OST;
+        player.PlayLooping();
 
         while (true)
         {
