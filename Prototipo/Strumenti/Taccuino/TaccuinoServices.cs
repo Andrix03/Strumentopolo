@@ -24,21 +24,25 @@ namespace Prototipo.Strumenti.Taccuino
                         exit = true;
                         break;
 
-                    case ConsoleKey.C:
+                    case ConsoleKey.F7:
                         taccuino.Contenuto = string.Empty;
                         taccuino.FileNome = string.Empty;
+                        Console.Beep();
                         break;
 
-                    case ConsoleKey.S:
+                    case ConsoleKey.F4:
                         HandleFileOperation(taccuino, OperazioneFile.Save);
+                        Console.Beep();
                         break;
 
-                    case ConsoleKey.L:
+                    case ConsoleKey.F5:
                         HandleFileOperation(taccuino, OperazioneFile.Load);
+                        Console.Beep();
                         break;
 
-                    case ConsoleKey.D:
+                    case ConsoleKey.F6:
                         HandleFileOperation(taccuino, OperazioneFile.Delete);
+                        Console.Beep();
                         break;
 
                     case ConsoleKey.Backspace:

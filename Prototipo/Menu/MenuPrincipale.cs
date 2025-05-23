@@ -49,18 +49,23 @@ namespace Prototipo
             {
                 case 0:
                     Calcolatrice();
+                    Console.Beep();
                     break;
                 case 1:
                     Calendario();
+                    Console.Beep();
                     break;
                 case 2:
                     Meteo();
-                   break;
+                    Console.Beep();
+                    break;
                 case 3:
                     Taccuino();
+                    Console.Beep();
                     break;
                 case 5:
                      Environment.Exit(0);
+                    Console.Beep();
                     break;
                 }
 

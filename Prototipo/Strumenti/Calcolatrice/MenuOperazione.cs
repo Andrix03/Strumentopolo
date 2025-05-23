@@ -49,22 +49,27 @@ namespace Prototipo.Strumenti.Calcolatrice
             {
                 case 0:
                     CalcolatriceOperazioni.Somma(primoNumero, secondoNumero);
+                    Console.Beep();
                     break;
 
                 case 1:
                     CalcolatriceOperazioni.Sottrazione(primoNumero, secondoNumero);
+                    Console.Beep();
                     break;
 
                 case 2:
                     CalcolatriceOperazioni.Moltiplicazione(primoNumero, secondoNumero);
+                    Console.Beep();
                     break;
 
                 case 3:
                     CalcolatriceOperazioni.Divisione(primoNumero, secondoNumero);
+                    Console.Beep();
                     break;
 
                 case 4:
                     Environment.Exit(0);
+                    Console.Beep();
                     break;
             }
         }

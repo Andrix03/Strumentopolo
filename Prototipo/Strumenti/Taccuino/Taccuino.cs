@@ -116,7 +116,7 @@ namespace Prototipo.Strumenti.Taccuino
         {
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.SetCursorPosition(3, Console.WindowHeight - 3);
-            Console.WriteLine("[S] Salva  [L] Carica  [D] Elimina  [C] Cancella  [ESC] Esci");
+            Console.WriteLine("[F4] Salva  [F5] Carica  [F6] Elimina  [F7] Cancella  [ESC] Esci");
         }
     }
 

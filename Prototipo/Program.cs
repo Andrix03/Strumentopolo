@@ -16,14 +16,18 @@ public class Program
             {
                 case ConsoleKey.LeftArrow:
                     opzioneSelezionato = (opzioneSelezionato - 1 + opzioniMenu.Length) % opzioniMenu.Length;
+                    Console.Beep();
                     break;
                 case ConsoleKey.RightArrow:
                     opzioneSelezionato = (opzioneSelezionato + 1) % opzioniMenu.Length;
+                    Console.Beep();
                     break;
                 case ConsoleKey.Enter:
                     HandleMenuSelection();
+                    Console.Beep();
                     break;
                 case ConsoleKey.Escape:
+                    Console.Beep();
                     return;
             }
         }

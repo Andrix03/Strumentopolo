@@ -18,7 +18,7 @@ namespace Prototipo.Strumenti.Meteo
 
             // renderizazzione interfaccia meteo
             WeatherRenderer.DrawWeather(weatherData);
-
+            Console.Beep();
             Console.ReadKey(); 
         }
     }
