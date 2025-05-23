@@ -3,6 +3,7 @@ using static Prototipo.Strumenti.Calcolatrice.StrumentoCalcolatrice;
 using static Prototipo.Strumenti.StrumentoCalendario;
 using static Prototipo.Strumenti.Meteo.StrumentoMeteo;
 using static Prototipo.Strumenti.Taccuino.StrumentoTaccuino;
+using static Prototipo.Strumenti.Telefono.StrumentoTelefono;
 
 namespace Prototipo
 {
@@ -63,8 +64,11 @@ namespace Prototipo
                     Taccuino();
                     Console.Beep();
                     break;
+                case 4:
+                    Telefono();
+                    break;
                 case 5:
-                     Environment.Exit(0);
+                    Environment.Exit(0);
                     Console.Beep();
                     break;
                 }
