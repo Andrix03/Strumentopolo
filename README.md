@@ -1,1 +1,3 @@
 # Prototipo
+
+Strumentopolo con qualche caratteristica interessante....
