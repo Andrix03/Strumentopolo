@@ -1,3 +1,3 @@
-# Prototipo
+# Strumentopolo - Prototipo Console.App
 
 Strumentopolo con qualche caratteristica interessante....
